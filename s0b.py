@@ -5,7 +5,13 @@ import time
 import requests
 import sys
 from termcolor import colored
+import pyfiglet
 
+# usage: python3 s0b.py {domain} {wordlist} {cookie} {verbose}
+
+text = pyfiglet.figlet_format("{ s0b }")
+colortext = colored(text, 'yellow')
+print(colortext)
 
 try:
     rawcookie = {sys.argv[3]}
@@ -46,5 +52,3 @@ for dir in splitlist:
             print(f"{r} {r3quest}")
         except IndexError:
             pass
-          
-         
