@@ -7,9 +7,7 @@ import sys
 from termcolor import colored
 import pyfiglet
 
-# usage: python3 s0b.py {domain} {wordlist} {cookie} {verbose}
-
-text = pyfiglet.figlet_format("{ s0b }")
+text = pyfiglet.figlet_format("s0b")
 colortext = colored(text, 'yellow')
 print(colortext)
 
