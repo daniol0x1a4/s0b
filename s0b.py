@@ -27,9 +27,7 @@ word_list = open(file).read()
 splitlist = word_list.splitlines()
 
 for dir in splitlist:
-
     r3quest = f"http://{sys.argv[1]}/{dir}"
-
     try:
         requests.get(r3quest, cookies=cookie)
         r = requests.get(r3quest, cookies=cookie)
@@ -38,15 +36,15 @@ for dir in splitlist:
     except requests.ConnectionError:
         print(f"connection error: {sys.argv[1]} not found")
         exit()
-
     if r.status_code==200:
         text = f"[*] {r} {r3quest}"
         colortext = colored(text, "green")
         print(colortext)
-
     if not r.status_code==200:
         try:
             verbose = {sys.argv[4]}
             print(f"{r} {r3quest}")
         except IndexError:
             pass
+
+       
