@@ -1,12 +1,4 @@
--   __       ___  _      __   
--  / /  ___ / _ \| |__   \ \  
-- | |  / __| | | | '_ \   | | 
--< <   \__ \ |_| | |_) |   > >
-- | |  |___/\___/|_.__/   | | 
--  \_\                   /_/  
-
 Directory Enumeration Tool with custom cookie option.
-
 
 > Usage: python3 s0b.py {domain} {wordlist} {cookie} {verbose}
 - domain = enter target domain without "http/https"
