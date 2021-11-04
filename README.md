@@ -1,4 +1,4 @@
-Directory Enumeration Tool with custom cookie option.
+Directory enumeration tool build with the requests library.
 
 > Usage: python3 s0b.py {domain} {wordlist} {cookie} {verbose}
 - domain = enter target domain without "http/https"
