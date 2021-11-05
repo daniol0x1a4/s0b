@@ -1,4 +1,4 @@
-Directory enumeration tool build with the requests library.
+Directory enumeration tool in python build with the requests library.
 
 > Usage: python3 s0b.py {domain} {wordlist} {cookie} {verbose}
 - {domain} = enter target domain 
