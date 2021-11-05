@@ -1,5 +1,5 @@
 
-#daniol0xA41
+#daniol0x1a4
 # usage: python3 s0b.py {domain} {wordlist} {cookie} {verbose}
 
 import time
