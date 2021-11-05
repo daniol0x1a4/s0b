@@ -13,4 +13,4 @@ examples:
 - with custom cookie value
   `python3 s0b.py example.org rockyou.txt cookievalue`
 - verbose mode
-  `python3 s0b.py example.org rockyou.txt cookie value x`  
+  `python3 s0b.py example.org rockyou.txt cookievalue x`  
