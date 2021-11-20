@@ -1,0 +1,7 @@
+
+colorama==0.4.4
+PyYAML==5.4.1
+requests==2.26.0
+rich==10.14.0
+termcolor==1.1.0
+urllib3==1.26.7
