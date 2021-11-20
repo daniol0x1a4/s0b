@@ -4,7 +4,6 @@ import time
 import requests
 import sys
 from termcolor import colored
-import pyfiglet
 from rich import print
 from rich import inspect
 from rich.console import Console
