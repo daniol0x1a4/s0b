@@ -1,4 +1,3 @@
-# based on a tryhackme.com Python challenge 
 
 Directory enumeration tool in python build with the requests library.
 
