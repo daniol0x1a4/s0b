@@ -1,3 +1,5 @@
+# based on a tryhackme.com Python challenge 
+
 Directory enumeration tool in python build with the requests library.
 
 > Usage: python3 s0b.py {domain} {wordlist} {cookie} {verbose}
