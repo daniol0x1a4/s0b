@@ -1,5 +1,7 @@
 
-Directory enumeration tool in python build with the requests library.
+# dir FUZZ 
+
+its pretty slow and shitty, it is based on a python challenge from tryhackme.com (this was in my first week in python pls dont judge)
 
 > Usage: python3 s0b.py {domain} {wordlist} {cookie} {verbose}
 - {domain} = enter target domain 
