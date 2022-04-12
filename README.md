@@ -1,5 +1,5 @@
 
-# s0b.py -- dir FUZZ 
+# s0b.py -- dir
 
 
 its pretty slow and shitty, it is based on a python challenge from tryhackme.com (this was in my first week in python pls dont judge)
